@@ -1,0 +1,191 @@
+fileFormatVersion: 2
+guid: b416c0b91d90849479bb2a2c43991d44
+timeCreated: 1534999343
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: dummyroot_eye
+    100004: hardpoint
+    100006: l_arm_1
+    100008: l_arm_2
+    100010: l_arm_3
+    100012: l_shoulder_1
+    100014: l_shoulder_2
+    100016: r_arm_1
+    100018: r_arm_2
+    100020: r_arm_3
+    100022: r_shoulder_1
+    100024: r_shoulder_2
+    100026: recoil
+    100028: torso
+    100030: turret_x
+    100032: turret_y
+    400000: //RootNode
+    400002: dummyroot_eye
+    400004: hardpoint
+    400006: l_arm_1
+    400008: l_arm_2
+    400010: l_arm_3
+    400012: l_shoulder_1
+    400014: l_shoulder_2
+    400016: r_arm_1
+    400018: r_arm_2
+    400020: r_arm_3
+    400022: r_shoulder_1
+    400024: r_shoulder_2
+    400026: recoil
+    400028: torso
+    400030: turret_x
+    400032: turret_y
+    2100000: 02 - Default
+    2300000: l_arm_1
+    2300002: l_arm_2
+    2300004: l_arm_3
+    2300006: l_shoulder_1
+    2300008: l_shoulder_2
+    2300010: r_arm_1
+    2300012: r_arm_2
+    2300014: r_arm_3
+    2300016: r_shoulder_1
+    2300018: r_shoulder_2
+    2300020: torso
+    2300022: turret_x
+    2300024: turret_y
+    3300000: l_arm_1
+    3300002: l_arm_2
+    3300004: l_arm_3
+    3300006: l_shoulder_1
+    3300008: l_shoulder_2
+    3300010: r_arm_1
+    3300012: r_arm_2
+    3300014: r_arm_3
+    3300016: r_shoulder_1
+    3300018: r_shoulder_2
+    3300020: torso
+    3300022: turret_x
+    3300024: turret_y
+    4300000: torso
+    4300002: r_shoulder_1
+    4300004: r_shoulder_2
+    4300006: r_arm_1
+    4300008: r_arm_2
+    4300010: r_arm_3
+    4300012: l_shoulder_1
+    4300014: l_shoulder_2
+    4300016: l_arm_1
+    4300018: l_arm_2
+    4300020: l_arm_3
+    4300022: turret_y
+    4300024: turret_x
+    7400000: chop
+    9500000: //RootNode
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: chop
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 100
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

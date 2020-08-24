@@ -1,0 +1,256 @@
+fileFormatVersion: 2
+guid: 95c7832f413811a44bf9458598f09a5a
+timeCreated: 1523457933
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: chunk00
+    100002: chunk01
+    100004: chunk02
+    100006: chunk03
+    100008: chunk04
+    100010: chunk05
+    100012: chunk06
+    100014: chunk07
+    100016: chunk08
+    100018: chunk09
+    100020: chunk10
+    100022: chunk11
+    100024: chunk12
+    100026: chunk13
+    100028: chunk14
+    100030: chunk15
+    100032: chunk16
+    100034: chunk17
+    100036: chunk18
+    100038: chunk19
+    100040: chunk20
+    100042: chunk21
+    100044: chunk22
+    100046: chunk23
+    100048: chunk24
+    100050: chunk25
+    100052: chunk26
+    100054: chunk27
+    100056: chunk28
+    100058: chunk29
+    100060: chunk30
+    100062: chunk31
+    100064: //RootNode
+    100066: main
+    400000: chunk00
+    400002: chunk01
+    400004: chunk02
+    400006: chunk03
+    400008: chunk04
+    400010: chunk05
+    400012: chunk06
+    400014: chunk07
+    400016: chunk08
+    400018: chunk09
+    400020: chunk10
+    400022: chunk11
+    400024: chunk12
+    400026: chunk13
+    400028: chunk14
+    400030: chunk15
+    400032: chunk16
+    400034: chunk17
+    400036: chunk18
+    400038: chunk19
+    400040: chunk20
+    400042: chunk21
+    400044: chunk22
+    400046: chunk23
+    400048: chunk24
+    400050: chunk25
+    400052: chunk26
+    400054: chunk27
+    400056: chunk28
+    400058: chunk29
+    400060: chunk30
+    400062: chunk31
+    400064: //RootNode
+    400066: main
+    2100000: 01 - Default
+    2300000: chunk00
+    2300002: chunk01
+    2300004: chunk02
+    2300006: chunk03
+    2300008: chunk04
+    2300010: chunk05
+    2300012: chunk06
+    2300014: chunk07
+    2300016: chunk08
+    2300018: chunk09
+    2300020: chunk10
+    2300022: chunk11
+    2300024: chunk12
+    2300026: chunk13
+    2300028: chunk14
+    2300030: chunk15
+    2300032: chunk16
+    2300034: chunk17
+    2300036: chunk18
+    2300038: chunk19
+    2300040: chunk20
+    2300042: chunk21
+    2300044: chunk22
+    2300046: chunk23
+    2300048: chunk24
+    2300050: chunk25
+    2300052: chunk26
+    2300054: chunk27
+    2300056: chunk28
+    2300058: chunk29
+    2300060: chunk30
+    2300062: chunk31
+    2300064: main
+    3300000: chunk00
+    3300002: chunk01
+    3300004: chunk02
+    3300006: chunk03
+    3300008: chunk04
+    3300010: chunk05
+    3300012: chunk06
+    3300014: chunk07
+    3300016: chunk08
+    3300018: chunk09
+    3300020: chunk10
+    3300022: chunk11
+    3300024: chunk12
+    3300026: chunk13
+    3300028: chunk14
+    3300030: chunk15
+    3300032: chunk16
+    3300034: chunk17
+    3300036: chunk18
+    3300038: chunk19
+    3300040: chunk20
+    3300042: chunk21
+    3300044: chunk22
+    3300046: chunk23
+    3300048: chunk24
+    3300050: chunk25
+    3300052: chunk26
+    3300054: chunk27
+    3300056: chunk28
+    3300058: chunk29
+    3300060: chunk30
+    3300062: chunk31
+    3300064: main
+    4300000: chunk23
+    4300002: chunk22
+    4300004: chunk25
+    4300006: chunk24
+    4300008: chunk21
+    4300010: chunk26
+    4300012: chunk31
+    4300014: chunk29
+    4300016: chunk28
+    4300018: chunk20
+    4300020: chunk19
+    4300022: chunk27
+    4300024: chunk18
+    4300026: chunk17
+    4300028: chunk16
+    4300030: chunk15
+    4300032: chunk14
+    4300034: chunk13
+    4300036: chunk12
+    4300038: chunk11
+    4300040: chunk10
+    4300042: chunk09
+    4300044: chunk08
+    4300046: chunk07
+    4300048: chunk06
+    4300050: chunk05
+    4300052: chunk04
+    4300054: chunk03
+    4300056: chunk02
+    4300058: chunk01
+    4300060: chunk00
+    4300062: chunk30
+    4300064: main
+    9500000: //RootNode
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,149 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1834048827696268}
+  m_IsPrefabParent: 1
+--- !u!1 &1834048827696268
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4229290310959288}
+  - component: {fileID: 114077423874215712}
+  - component: {fileID: 33268033405122348}
+  - component: {fileID: 23658463680446652}
+  - component: {fileID: 64005869068998298}
+  m_Layer: 0
+  m_Name: testPref4
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4229290310959288
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1834048827696268}
+  m_LocalRotation: {x: -0, y: -1, z: -0, w: 0.000037908554}
+  m_LocalPosition: {x: -645, y: 0, z: -245}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -179.996, z: 0}
+--- !u!23 &23658463680446652
+MeshRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1834048827696268}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 17611bf363c8ea641b29b9ba5e4ec643, type: 2}
+  - {fileID: 2100000, guid: 508ffbffdf1640e498bda5b44d025fbe, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &33268033405122348
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1834048827696268}
+  m_Mesh: {fileID: 4300002, guid: 369f592034adccb4384623e107dc8e11, type: 3}
+--- !u!64 &64005869068998298
+MeshCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1834048827696268}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 4300000, guid: 82b1f456770b1b340bc29d568f8881e8, type: 3}
+--- !u!114 &114077423874215712
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1834048827696268}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 195a46c0c0987864496829d553c63a8b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _bActive: 0
+  _bIsBaseProcObj: 0
+  _bResetAllProc1DirDones: 0
+  _bDestroyAllNonBaseProcObjs: 0
+  _objSize: {x: 10, y: 10}
+  _top_prefabs:
+    _prefabs:
+    - {fileID: 1252797309619398, guid: 5f632be8c135d5e45bcab1ca3ef1b4b1, type: 2}
+    _fixedRotationOffset:
+    - 180
+  _bottom_prefabs:
+    _prefabs:
+    - {fileID: 1457360889940464, guid: 2412e519a0acb984d96b76f7fb8d1682, type: 2}
+    _fixedRotationOffset:
+    - 0
+  _left_prefabs:
+    _prefabs:
+    - {fileID: 1457360889940464, guid: 2412e519a0acb984d96b76f7fb8d1682, type: 2}
+    _fixedRotationOffset:
+    - 90
+  _right_prefabs:
+    _prefabs:
+    - {fileID: 1252797309619398, guid: 5f632be8c135d5e45bcab1ca3ef1b4b1, type: 2}
+    _fixedRotationOffset:
+    - 90
+  _topLeft_prefabs:
+    _prefabs: []
+    _fixedRotationOffset: []
+  _topRight_prefabs:
+    _prefabs: []
+    _fixedRotationOffset: []
+  _bottomLeft_prefabs:
+    _prefabs: []
+    _fixedRotationOffset: []
+  _bottomRight_prefabs:
+    _prefabs: []
+    _fixedRotationOffset: []

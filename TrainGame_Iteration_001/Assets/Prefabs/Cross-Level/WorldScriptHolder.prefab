@@ -1,0 +1,74 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1286992144094032}
+  m_IsPrefabParent: 1
+--- !u!1 &1286992144094032
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4415108535986956}
+  - component: {fileID: 114577531594842984}
+  m_Layer: 0
+  m_Name: WorldScriptHolder
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 4294967295
+  m_IsActive: 1
+--- !u!4 &4415108535986956
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1286992144094032}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114577531594842984
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1286992144094032}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a9dddefacac1a44dbfe6da9c4578966, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameType: 0
+  _constructionArchetypes:
+  - {fileID: 1943895997039170, guid: ef96d5f852df0d742a0d455382bde6fa, type: 2}
+  - {fileID: 1052144736737810, guid: b57e282fd196efa408d5caa66dfdd10f, type: 2}
+  - {fileID: 1086921309513500, guid: fb9443c40b56c124483b08c44b8362f4, type: 2}
+  - {fileID: 1913274876751952, guid: 7b3809cd9d3deac488c3a5deecaab6e1, type: 2}
+  - {fileID: 1665264979348778, guid: ce24c29ce54d8bb4ebbeaffde4cd4fb1, type: 2}
+  - {fileID: 1685178386626356, guid: 689906a3833d63746bcbf50b74f1799f, type: 2}
+  - {fileID: 1115447579626696, guid: c677682fb3ce51b4faf9e8fff0e2de9a, type: 2}
+  _carriagesArchetypes:
+  - {fileID: 1282814570523724, guid: 8f20f4c4c59e78b4099d63a207526b3f, type: 2}
+  - {fileID: 1852528935428656, guid: fc68b265b12b6ee499cb00cefca1fee2, type: 2}
+  _defaultChunkMeshes: []
+  _defaultChunkMaterials: []
+  _allEnemyArchetypes:
+  - {fileID: 1613843415259574, guid: fc2cce7506f62304bb8ccb2e34c303a1, type: 2}
+  - {fileID: 1202531513232134, guid: d69f00f2b6b147f4bb557808acbb194a, type: 2}
+  - {fileID: 1780186479148158, guid: 68c0c9422f1962242af5c1a5f29b113a, type: 2}
+  - {fileID: 1128977000452666, guid: 2c3bcdf9fbae11c4490954633742d3e8, type: 2}
+  - {fileID: 1618316702350744, guid: 99655cfe0afd16447b839030ce31c0ae, type: 2}
+  bEnemySpawningActive: 1

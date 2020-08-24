@@ -1,0 +1,4 @@
+O::Uh-oh, looks like you have company. Looks like this journey will be more dangerous than anticipated
+O::Keep a close eye on your carriages, Iron Goose. They can only take so much fire before they're destroyed!
+O::This spells trouble. You should engage the Iron Goose's defence systems. Select one of your (highlighted) construction platforms.
+O::This should bring up your construction menu. I'm authorising the construction of Blast Towers.

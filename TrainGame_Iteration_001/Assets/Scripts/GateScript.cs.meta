@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+<<<<<<< HEAD:TrainGame_Iteration_001/Assets/Scripts/GateScript.cs.meta
+guid: c421d5bf5f9f548459fec402438987df
+timeCreated: 1536055332
+=======
+guid: d061e3b686fe5c74a9d1c56d4d7ab438
+timeCreated: 1536055093
+>>>>>>> develop:TrainGame_Iteration_001/Assets/Scripts/GateScript.cs.meta
+licenseType: Free
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

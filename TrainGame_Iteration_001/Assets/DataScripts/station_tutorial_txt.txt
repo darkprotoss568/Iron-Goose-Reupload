@@ -1,0 +1,7 @@
+O::This is central command to Iron Goose, do you read me?
+D::I read you loud and clear
+O::We're going through some final checks before you head off. Could you try moving your camera for me?
+O::Good, that's all working. As one last check, could you try rotating your view?
+O::Great, that's all good. Just remember, if you feel like your view's running away from you, remember to recenter on your carriages.
+D::Is that everything for now?
+O::It is. Be careful out there - the wastes aren't as safe as they used to be. Good luck Iron Goose.

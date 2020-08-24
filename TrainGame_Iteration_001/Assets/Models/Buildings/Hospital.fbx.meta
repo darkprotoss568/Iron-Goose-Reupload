@@ -1,0 +1,150 @@
+fileFormatVersion: 2
+guid: 65a6ba9598c53e94ba0eff5bf42aa042
+timeCreated: 1536454264
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: EmergencySign
+    100002: Fences
+    100004: //RootNode
+    100006: Hospital_Clinic
+    100008: Hospital_ERward
+    100010: WaterTank
+    100012: WaterTank1
+    400000: EmergencySign
+    400002: Fences
+    400004: //RootNode
+    400006: Hospital_Clinic
+    400008: Hospital_ERward
+    400010: WaterTank
+    400012: WaterTank1
+    2100000: HospitalRoof_Fence
+    2100002: ER_Ward_Sign
+    2100004: Hospital_WaterTank
+    2100006: Hospital_Clinic1
+    2100008: Hospital_ER_WARD
+    2300000: EmergencySign
+    2300002: Fences
+    2300004: Hospital_Clinic
+    2300006: Hospital_ERward
+    2300008: WaterTank
+    2300010: WaterTank1
+    3300000: EmergencySign
+    3300002: Fences
+    3300004: Hospital_Clinic
+    3300006: Hospital_ERward
+    3300008: WaterTank
+    3300010: WaterTank1
+    4300000: Fences
+    4300002: EmergencySign
+    4300004: WaterTank1
+    4300006: WaterTank
+    4300008: Hospital_Clinic
+    4300010: Hospital_ERward
+    9500000: //RootNode
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ER_Ward_Sign
+    second: {fileID: 2100000, guid: af5c8be705b406041a7f454c6a5628eb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: HospitalRoof_Fence
+    second: {fileID: 2100000, guid: ef288d506d4960a48bf91ceda3fff424, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Hospital_Clinic1
+    second: {fileID: 2100000, guid: de951a6841c70aa44b0eb0549f867b2f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Hospital_ER_WARD
+    second: {fileID: 2100000, guid: 4a5adce752dafeb45963bb8fcd90bddf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Hospital_WaterTank
+    second: {fileID: 2100000, guid: c3a913738bb9af440be44d1d99e26210, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 200
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

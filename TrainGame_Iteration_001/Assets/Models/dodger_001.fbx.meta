@@ -1,0 +1,289 @@
+fileFormatVersion: 2
+guid: 736df4057c2e02549887064b7f80c618
+timeCreated: 1524910769
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: body
+    100002: //RootNode
+    100004: hardpoint
+    100006: leg_A_1
+    100008: leg_A_2
+    100010: leg_A_3
+    100012: leg_B_1
+    100014: leg_B_2
+    100016: leg_B_3
+    100018: leg_C_1
+    100020: leg_C_2
+    100022: leg_C_3
+    100024: leg_D_1
+    100026: leg_D_2
+    100028: leg_D_3
+    100030: recoil
+    100032: turret_x
+    100034: turret_y
+    400000: body
+    400002: //RootNode
+    400004: hardpoint
+    400006: leg_A_1
+    400008: leg_A_2
+    400010: leg_A_3
+    400012: leg_B_1
+    400014: leg_B_2
+    400016: leg_B_3
+    400018: leg_C_1
+    400020: leg_C_2
+    400022: leg_C_3
+    400024: leg_D_1
+    400026: leg_D_2
+    400028: leg_D_3
+    400030: recoil
+    400032: turret_x
+    400034: turret_y
+    2100000: 01 - Default
+    2300000: body
+    2300002: leg_A_1
+    2300004: leg_A_2
+    2300006: leg_A_3
+    2300008: leg_B_1
+    2300010: leg_B_2
+    2300012: leg_B_3
+    2300014: leg_C_1
+    2300016: leg_C_2
+    2300018: leg_C_3
+    2300020: leg_D_1
+    2300022: leg_D_2
+    2300024: leg_D_3
+    2300026: recoil
+    2300028: turret_x
+    2300030: turret_y
+    3300000: body
+    3300002: leg_A_1
+    3300004: leg_A_2
+    3300006: leg_A_3
+    3300008: leg_B_1
+    3300010: leg_B_2
+    3300012: leg_B_3
+    3300014: leg_C_1
+    3300016: leg_C_2
+    3300018: leg_C_3
+    3300020: leg_D_1
+    3300022: leg_D_2
+    3300024: leg_D_3
+    3300026: recoil
+    3300028: turret_x
+    3300030: turret_y
+    4300000: body
+    4300002: leg_A_1
+    4300004: leg_A_2
+    4300006: leg_A_3
+    4300008: turret_y
+    4300010: turret_x
+    4300012: recoil
+    4300014: leg_B_1
+    4300016: leg_B_2
+    4300018: leg_B_3
+    4300020: leg_C_1
+    4300022: leg_C_2
+    4300024: leg_C_3
+    4300026: leg_D_1
+    4300028: leg_D_2
+    4300030: leg_D_3
+    7400000: Idle_Dodger
+    7400002: WalkStart_Dodger
+    7400004: WalkCycle_Dodger
+    7400006: WalkEnd_Dodger
+    9500000: //RootNode
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Idle_Dodger
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 10
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: WalkStart_Dodger
+      takeName: Take 001
+      firstFrame: 10
+      lastFrame: 20
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: WalkCycle_Dodger
+      takeName: Take 001
+      firstFrame: 20
+      lastFrame: 60
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: WalkEnd_Dodger
+      takeName: Take 001
+      firstFrame: 60
+      lastFrame: 70
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: body
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

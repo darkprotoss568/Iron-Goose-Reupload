@@ -1,0 +1,242 @@
+fileFormatVersion: 2
+guid: 98d0ed9baea9de048baafc1cbd42388a
+timeCreated: 1537660838
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: polySurface1
+    100002: polySurface4
+    100004: polySurface5
+    100006: Roof_Anchor10
+    100008: Roof_Anchor4
+    100010: Roof_Anchor5
+    100012: Roof_Anchor6
+    100014: Roof_Anchor7
+    100016: Roof_Anchor8
+    100018: Roof_Anchor9
+    100020: //RootNode
+    100022: Station_Base
+    100024: Station_Long_Bench
+    100026: Station_Long_Bench1
+    100028: Station_Office_Glass
+    100030: Station_Short_Bench
+    100032: Station_Short_Bench1
+    100034: TrashCan
+    100036: TrashCan1
+    100038: TrashCan2
+    400000: polySurface1
+    400002: polySurface4
+    400004: polySurface5
+    400006: Roof_Anchor10
+    400008: Roof_Anchor4
+    400010: Roof_Anchor5
+    400012: Roof_Anchor6
+    400014: Roof_Anchor7
+    400016: Roof_Anchor8
+    400018: Roof_Anchor9
+    400020: //RootNode
+    400022: Station_Base
+    400024: Station_Long_Bench
+    400026: Station_Long_Bench1
+    400028: Station_Office_Glass
+    400030: Station_Short_Bench
+    400032: Station_Short_Bench1
+    400034: TrashCan
+    400036: TrashCan1
+    400038: TrashCan2
+    2100000: Stairs
+    2100002: StationBase
+    2100004: DoorOffice
+    2100006: DoorMedical
+    2100008: PoliceDoor
+    2100010: RoofAnchor
+    2100012: GlassPanel
+    2100014: station_trashCan
+    2100016: Station_Bench_Long
+    2100018: Station_Bench_Short
+    2300000: polySurface1
+    2300002: polySurface4
+    2300004: polySurface5
+    2300006: Roof_Anchor10
+    2300008: Roof_Anchor4
+    2300010: Roof_Anchor5
+    2300012: Roof_Anchor6
+    2300014: Roof_Anchor7
+    2300016: Roof_Anchor8
+    2300018: Roof_Anchor9
+    2300020: Station_Long_Bench
+    2300022: Station_Long_Bench1
+    2300024: Station_Office_Glass
+    2300026: Station_Short_Bench
+    2300028: Station_Short_Bench1
+    2300030: TrashCan
+    2300032: TrashCan1
+    2300034: TrashCan2
+    3300000: polySurface1
+    3300002: polySurface4
+    3300004: polySurface5
+    3300006: Roof_Anchor10
+    3300008: Roof_Anchor4
+    3300010: Roof_Anchor5
+    3300012: Roof_Anchor6
+    3300014: Roof_Anchor7
+    3300016: Roof_Anchor8
+    3300018: Roof_Anchor9
+    3300020: Station_Long_Bench
+    3300022: Station_Long_Bench1
+    3300024: Station_Office_Glass
+    3300026: Station_Short_Bench
+    3300028: Station_Short_Bench1
+    3300030: TrashCan
+    3300032: TrashCan1
+    3300034: TrashCan2
+    4300000: polySurface1
+    4300002: polySurface4
+    4300004: polySurface5
+    4300006: Roof_Anchor4
+    4300008: Roof_Anchor5
+    4300010: Roof_Anchor6
+    4300012: Roof_Anchor7
+    4300014: Roof_Anchor8
+    4300016: Roof_Anchor9
+    4300018: Roof_Anchor10
+    4300020: Station_Office_Glass
+    4300022: TrashCan2
+    4300024: TrashCan1
+    4300026: TrashCan
+    4300028: Station_Long_Bench1
+    4300030: Station_Short_Bench1
+    4300032: Station_Short_Bench
+    4300034: Station_Long_Bench
+    9500000: //RootNode
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DoorMedical
+    second: {fileID: 2100000, guid: 139a533b8c2291a44a89cd27702bb3f6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DoorOffice
+    second: {fileID: 2100000, guid: da29783ee0ce4eb4f8619a49bbf42bcb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: GlassPanel
+    second: {fileID: 2100000, guid: 6256cdf5895da3346b89052d00983a3a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PoliceDoor
+    second: {fileID: 2100000, guid: 56d3ff5a68c7f0e48a9d6093219cac67, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RoofAnchor
+    second: {fileID: 2100000, guid: 68d321e0c082c5644a1413148aa5a16c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Stairs
+    second: {fileID: 2100000, guid: a6851eb61e6478b4e93f4183e495910a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: StationBase
+    second: {fileID: 2100000, guid: 0f9ffbfdc75a92349bf6e30b289a0996, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Station_Bench_Long
+    second: {fileID: 2100000, guid: 415b61b78cebf4843957a073c80d357b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Station_Bench_Short
+    second: {fileID: 2100000, guid: 283e5cc1ef7bb514f9cbf594b1e914e6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: station_trashCan
+    second: {fileID: 2100000, guid: ddc81b49be8dc6c409be4ad4c00f50ec, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 100
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

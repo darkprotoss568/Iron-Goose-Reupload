@@ -1,0 +1,171 @@
+fileFormatVersion: 2
+guid: 5399685d401c81540b4078b2ab3b0ec2
+timeCreated: 1535978902
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: WorkShop_Base
+    100004: WorkShop_Furnance
+    100006: WorkShop_Shelf
+    100008: WorkShop_Vent
+    100010: WorkShop_Vent1
+    100012: WorkShop_Vent2
+    100014: WorkShop_Vent3
+    100016: WorkShop_WorkBench
+    100018: WorkShop_Wrench
+    400000: //RootNode
+    400002: WorkShop_Base
+    400004: WorkShop_Furnance
+    400006: WorkShop_Shelf
+    400008: WorkShop_Vent
+    400010: WorkShop_Vent1
+    400012: WorkShop_Vent2
+    400014: WorkShop_Vent3
+    400016: WorkShop_WorkBench
+    400018: WorkShop_Wrench
+    2100000: WorkShopBase
+    2100002: Workshop_wrench
+    2100004: Vent
+    2100006: RefusionFurnance
+    2100008: ToolRack
+    2100010: WorkBench
+    2300000: WorkShop_Base
+    2300002: WorkShop_Furnance
+    2300004: WorkShop_Shelf
+    2300006: WorkShop_Vent
+    2300008: WorkShop_Vent1
+    2300010: WorkShop_Vent2
+    2300012: WorkShop_Vent3
+    2300014: WorkShop_WorkBench
+    2300016: WorkShop_Wrench
+    3300000: WorkShop_Base
+    3300002: WorkShop_Furnance
+    3300004: WorkShop_Shelf
+    3300006: WorkShop_Vent
+    3300008: WorkShop_Vent1
+    3300010: WorkShop_Vent2
+    3300012: WorkShop_Vent3
+    3300014: WorkShop_WorkBench
+    3300016: WorkShop_Wrench
+    4300000: WorkShop_Base
+    4300002: WorkShop_Wrench
+    4300004: WorkShop_Vent
+    4300006: WorkShop_Vent1
+    4300008: WorkShop_Vent2
+    4300010: WorkShop_Vent3
+    4300012: WorkShop_Furnance
+    4300014: WorkShop_Shelf
+    4300016: WorkShop_WorkBench
+    9500000: //RootNode
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RefusionFurnance
+    second: {fileID: 2100000, guid: 1c5a7fd5a7433054195afc8d7603ee21, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ToolRack
+    second: {fileID: 2100000, guid: 226a1ec37f19588449a81220e889086a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Vent
+    second: {fileID: 2100000, guid: ecc18a2f9c632814e91699fe97d67faf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: WorkBench
+    second: {fileID: 2100000, guid: dd0d6a1d5e1f35944b5a2114665a0306, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: WorkShopBase
+    second: {fileID: 2100000, guid: f116b171d540e0a449c7a7d708afdc8e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Workshop_wrench
+    second: {fileID: 2100000, guid: c9a1f430f04474443b73fb98eb5ddbf0, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 100
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

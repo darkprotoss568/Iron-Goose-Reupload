@@ -1,0 +1,2 @@
+O::If you're running out of resources to build towers try getting some from your defeated enemies. To do this, I'm authorising use of Resource Silos
+O::That will give you a Resource Collecter Drone that will automatically collect resources for you.

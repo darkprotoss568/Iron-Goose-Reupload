@@ -1,0 +1,441 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public abstract class UIOverlayObjScript : MonoBehaviour
+{
+<<<<<<< HEAD
+
+	protected GameObject _followObject;
+	protected GameObject _iconsContainerObj;
+	[SerializeField]
+	protected bool _bFollowObjectIsOnUI;
+	[SerializeField]
+	protected bool _bUsesParentTransform;
+
+	[SerializeField]
+	private Vector2 _staticOffset;
+	private Vector2 _originalStaticOffset;
+	[SerializeField]
+	protected bool _bStaysInHiearchy;
+	// Use this for initialization
+
+
+	public virtual void Start()
+	{
+		_originalStaticOffset = new Vector2(_staticOffset.x, _staticOffset.y);
+	}
+
+	// Update is called once per frame
+	protected virtual void Update()
+	{
+		if (!PauseMenu.isPaused)
+		{
+			if (_followObject != null)
+			{
+				ManagePosition();
+				//Debug.Log("following");
+			}
+			else
+			{
+				Deactivate();
+			}
+		}
+	}
+
+	public void SetFollowObject(GameObject followObject, bool bObjectIsOnUI, Vector2 staticOffset)
+	{
+		_bFollowObjectIsOnUI = bObjectIsOnUI;
+		_followObject = followObject;
+		_staticOffset = staticOffset + _staticOffset;
+	}
+
+	protected void ManagePosition()
+	{
+		if (PauseMenu.isPaused) return;
+
+		if (_bFollowObjectIsOnUI)
+		{
+			FollowUIObject();
+		}
+		else
+		{
+			if (!IsFollowObjectOffScreen())
+				FollowGameObject();
+			else
+				Deactivate();
+		}
+	}
+
+	private void FollowUIObject()
+	{
+		gameObject.transform.parent.SetAsLastSibling();
+		RectTransform parentBoxRect = gameObject.transform.parent.gameObject.GetComponent<RectTransform>();
+		RectTransform boxRect = gameObject.GetComponent<RectTransform>();
+		RectTransform followTargetRect = _followObject.GetComponent<RectTransform>();
+		float posX;
+		float posY;
+
+		//posX = followTargetRect.localPosition.x + followTargetRect.sizeDelta.x / 2;
+		//posY = followTargetRect.localPosition.y + followTargetRect.sizeDelta.y / 2;
+		posX = followTargetRect.position.x + _staticOffset.x;
+		posY = followTargetRect.position.y + _staticOffset.y;
+
+		// Need to make this more generalized. Currently only applies to UI Objects whose anchor is top left.
+		float minX = 0 + followTargetRect.sizeDelta.x;
+		float minY = 0 + _staticOffset.y + boxRect.sizeDelta.y;
+		float maxX = Screen.width - boxRect.sizeDelta.x;
+		//Debug.Log(maxX);
+		float maxY = Screen.height * (1 - 0.01f) - _staticOffset.y;
+
+		if (posX > maxX)
+		{
+			if (posY < Screen.height / 2)
+			{
+				posY += boxRect.sizeDelta.y;
+			}
+			else
+			{
+				posY -= followTargetRect.sizeDelta.y;
+			}
+		}
+
+		posX = Mathf.Clamp(posX, minX, maxX);
+		posY = Mathf.Clamp(posY, minY, maxY);
+
+		if (_bUsesParentTransform)
+			parentBoxRect.position = new Vector2(posX, posY);
+		else
+			boxRect.position = new Vector2(posX, posY);
+
+	}
+	private void FollowGameObject()
+	{
+		RectTransform parentBoxRect = gameObject.transform.parent.gameObject.GetComponent<RectTransform>();
+		RectTransform boxRect = gameObject.GetComponent<RectTransform>();
+
+		float posX = GetFollowedObjectPositionOnScreen().x + _staticOffset.x;
+		float posY = GetFollowedObjectPositionOnScreen().y + _staticOffset.y;
+
+		float minX = 0 + boxRect.sizeDelta.x / 2;
+		float maxX = Screen.width - boxRect.sizeDelta.x / 2;
+		float minY = 0 + boxRect.sizeDelta.y / 2;
+		float maxY = Screen.height - boxRect.sizeDelta.y / 2;
+
+		Vector2 finalPos = new Vector2(Mathf.Clamp(posX, minX, maxX),
+												 Mathf.Clamp(posY, minY, maxY));
+
+		if (_bUsesParentTransform)
+			parentBoxRect.position = finalPos;
+		else
+			boxRect.position = finalPos;
+	}
+
+	private bool IsFollowObjectOffScreen()
+	{
+		Vector2 consPlatformPos = GetFollowedObjectPositionOnScreen();
+		float posX = consPlatformPos.x;
+		float posY = consPlatformPos.y;
+		float halfHeight = Screen.height / 2;
+		float halfWidth = Screen.width / 2;
+		if (posY > 0 && posY < Screen.height && posX < Screen.width && posX > 0)
+		{
+			return false;
+		}
+		else
+		{
+			return true;
+		}
+	}
+
+	private Vector2 GetFollowedObjectPositionOnScreen()
+	{
+		Camera viewCamera = Camera.main;
+		Vector3 screenPos;
+		if (_followObject.GetComponent<TrainGameObjScript>() != null)
+		{
+			screenPos = viewCamera.WorldToScreenPoint(_followObject.GetComponent<TrainGameObjScript>().CommSocketObj.transform.position);
+		}
+		else
+			screenPos = viewCamera.WorldToScreenPoint(_followObject.transform.position);
+		//Vector2 result = new Vector2(screenPos.x - (Screen.width / 2), screenPos.y - (Screen.height / 2));
+		return screenPos;
+	}
+
+	public virtual void Deactivate()
+	{
+		if (_bStaysInHiearchy)
+		{
+			_staticOffset = new Vector2(_originalStaticOffset.x, _originalStaticOffset.y);
+			if (_bUsesParentTransform)
+				gameObject.transform.parent.gameObject.SetActive(false);
+			else
+				gameObject.SetActive(false);
+		}
+		else
+		{
+			Destroy(gameObject);
+		}
+	}
+
+	public virtual void Activate()
+	{
+		if (!_bFollowObjectIsOnUI && IsFollowObjectOffScreen())
+		{
+			ManagePosition();
+		}
+		else
+		{
+			ManagePosition();
+			if (_bUsesParentTransform)
+				gameObject.transform.parent.gameObject.SetActive(true);
+			else
+				gameObject.SetActive(true);
+		}
+	}
+=======
+    protected GameObject _followObject;                     // The GameObject this UIOverlayObj must follow
+    [SerializeField]
+    protected bool _bFollowObjectIsOnUI;
+    [SerializeField]
+    protected bool _bUsesParentTransform;
+    
+    [SerializeField]
+    private Vector2 _staticOffset;
+    private Vector2 _originalStaticOffset;
+    [SerializeField]
+    protected bool _bStaysInHiearchy;
+    // Use this for initialization
+
+
+    public virtual void Start ()
+    {
+        _originalStaticOffset = new Vector2(_staticOffset.x, _staticOffset.y);
+    }
+	
+	// Update is called once per frame
+	protected virtual void Update () {
+        if (!PauseMenu.isPaused)
+        {
+            if (_followObject != null)
+            {
+                // Only follow the followed object if a reference to it exists
+                ManagePosition();
+                //Debug.Log("following");
+            }
+            else
+            {
+                Deactivate();
+            }
+        }
+    }
+
+    /// <summary>
+    /// Set the parameters to follow an object
+    /// </summary>
+    /// <param name="followObject">The object this UIOverlayObj would follow</param>
+    /// <param name="bObjectIsOnUI">True if the object is on UI Space and not world space</param>
+    /// <param name="staticOffset">The offset from the followed gameObject's position on-screen</param>
+    public void SetFollowObject(GameObject followObject, bool bObjectIsOnUI, Vector2 staticOffset)
+    {
+        _bFollowObjectIsOnUI = bObjectIsOnUI;
+        _followObject = followObject;
+        _staticOffset = staticOffset + _staticOffset;
+    }
+
+    /// <summary>
+    /// Manage the position of the UIOverlayObj
+    /// </summary>
+    protected void ManagePosition()
+    {
+        if (PauseMenu.isPaused) return;
+
+        gameObject.transform.parent.SetAsLastSibling();
+
+        if (_bFollowObjectIsOnUI)
+        {
+            FollowUIObject();
+        }
+        else
+        {
+            if (!IsFollowObjectOffScreen())
+                FollowGameObject();
+            else
+                Deactivate();
+        }
+    }
+
+    /// <summary>
+    /// Force the UIOverlayObj to follow an UI space Object
+    /// </summary>
+    private void FollowUIObject()
+    {
+        RectTransform screenRect = GameObject.Find("MainHolder").transform.Find("WorldScriptHolder").GetComponent<WorldScript>().HUDScript.HUDCanvas.GetComponent<RectTransform>();
+        // Get the RectTransform of the parent object
+        RectTransform parentBoxRect = gameObject.transform.parent.gameObject.GetComponent<RectTransform>();
+        // Get the RectTransform of the object
+        RectTransform boxRect = gameObject.GetComponent<RectTransform>();
+        // Get the RectTransform of the followed UI object
+        RectTransform followTargetRect = _followObject.GetComponent<RectTransform>();
+
+        float posX;
+        float posY;
+        
+        // Get offset x and y coordinates of the UIOverlayObj from the followed object's position
+        posX = followTargetRect.position.x + _staticOffset.x;
+        posY = followTargetRect.position.y + _staticOffset.y;
+
+        // TODO: Need to make this more generalized. Currently only applies to UI Objects whose pivot is Vector2(0,1).
+        // Get the minimum and maximum values of x and y coordinates
+        float minX = 0 + followTargetRect.sizeDelta.x* screenRect.localScale.x;
+        float minY = 0 + followTargetRect.sizeDelta.y* screenRect.localScale.y;
+        float maxX = Screen.width - boxRect.rect.width*screenRect.localScale.x;
+        float maxY = Screen.height*(1- 0.01f) - _staticOffset.y;
+
+        // Check if the box is on the top or the bottom half of the screen to "flow" it upward or downward.
+        if (posX > maxX)
+        {
+            if (posY < Screen.height/2)
+            {
+                posY += boxRect.sizeDelta.y;
+            } else
+            {
+                posY -= followTargetRect.sizeDelta.y/2;
+            }
+        }
+
+        // Clamp the position of the UIOverlayObj
+        posX = Mathf.Clamp(posX, minX, maxX);
+        posY = Mathf.Clamp(posY, minY, maxY);
+
+        // Finalize the movement of the UIOverlayObj
+        if (_bUsesParentTransform)
+            parentBoxRect.position = new Vector2(posX, posY);
+        else
+            boxRect.position = new Vector2(posX, posY);
+
+    }
+
+    /// <summary>
+    /// Force the UIOVerlayObj to follow a world space object
+    /// </summary>
+    private void FollowGameObject()
+    {
+        RectTransform screenRect = GameObject.Find("MainHolder").transform.Find("WorldScriptHolder").GetComponent<WorldScript>().HUDScript.HUDCanvas.GetComponent<RectTransform>();
+        // Get the RectTransform of the parent object
+        RectTransform parentBoxRect = gameObject.transform.parent.gameObject.GetComponent<RectTransform>();
+        // Get the RectTransform of the object
+        RectTransform boxRect = gameObject.GetComponent<RectTransform>();
+        
+        float posX = GetFollowedObjectPositionOnScreen().x + _staticOffset.x;
+        float posY = GetFollowedObjectPositionOnScreen().y + _staticOffset.y;
+
+        // TODO: Need to generalize this further. Only applies to UIOverlayObjects with pivot = Vector2(0.5, 0.5)
+        // Get the minimum and maximum x and y positions for the UIOverlayObjectScript
+        float minX = 0 + boxRect.sizeDelta.x / 2* screenRect.localScale.x;
+        float maxX = Screen.width - boxRect.sizeDelta.x / 2 * screenRect.localScale.x;
+        float minY = 0 + boxRect.sizeDelta.y / 2 * screenRect.localScale.y;
+        float maxY = Screen.height - boxRect.sizeDelta.y / 2 * screenRect.localScale.y;
+
+        // Clamp the position of the UIOverlayObj.
+        Vector2 finalPos = new Vector2(Mathf.Clamp(posX, minX, maxX),
+                                       Mathf.Clamp(posY, minY, maxY));
+
+        // Finalize the movement of the UIOverlayObj
+        if (_bUsesParentTransform)
+            parentBoxRect.position = finalPos;
+        else
+            boxRect.position = finalPos;
+    }
+
+    /// <summary>
+    /// Check whether the followed object is off-screen. Return false if the object is within the view, true if otherwise.
+    /// </summary>
+    /// <returns></returns>
+    private bool IsFollowObjectOffScreen()
+    {
+        // Get the coordinates of the followedObj relative the the screen view.
+        Vector2 followedObjPos = GetFollowedObjectPositionOnScreen();
+        float posX = followedObjPos.x;
+        float posY = followedObjPos.y;
+
+        // Check if the X and Y value are both within 0 and screen width and screen height respectively
+        if (posY > 0 && posY < Screen.height && posX < Screen.width && posX > 0)
+        {
+            return false;
+        }
+        else
+        {
+            return true;
+        }
+    }
+
+    /// <summary>
+    /// Get the on-screen coordinates of the followed object relative to the main camera view
+    /// </summary>
+    /// <returns></returns>
+    private Vector2 GetFollowedObjectPositionOnScreen()
+    {
+        Camera viewCamera = Camera.main;
+        Vector3 screenPos;
+        // Check if the followed object has a TrainGameObjScript component attached. In which case, the position returned would be the CommSocketObj's position.
+        // Otherwise, the position returned would be the followed object's actual position.
+        if (_followObject.GetComponent<TrainGameObjScript>() != null)
+        {
+            screenPos = viewCamera.WorldToScreenPoint(_followObject.GetComponent<TrainGameObjScript>().CommSocketObj.transform.position);
+        }
+        else
+            screenPos = viewCamera.WorldToScreenPoint(_followObject.transform.position);
+        //Vector2 result = new Vector2(screenPos.x - (Screen.width / 2), screenPos.y - (Screen.height / 2));
+        return screenPos;
+    }
+
+
+    /// <summary>
+    /// Deactive the UIOverlayObj using different methods depending on the _bStaysInHiearchy and the _bUsersParentTransform fields.
+    /// If _bUsesParenTransform is true, the target object would be the parent object, if false, the target object would be gameObject containing this script.
+    /// If _bStaysInHiearchy is true, deactiation is performed by setting the target object to inactive, if true, deactivation is performed by deleting the target object. 
+    /// </summary>
+    public virtual void Deactivate()
+    {
+        // Check whether the UIOverlayObj is meant to stay in the hiearchy when deactivated or must be destroyed.
+        if (_bStaysInHiearchy)
+        {
+            _staticOffset = new Vector2(_originalStaticOffset.x, _originalStaticOffset.y);
+            if (_bUsesParentTransform)
+                gameObject.transform.parent.gameObject.SetActive(false);
+            else
+                gameObject.SetActive(false);
+        }
+        else
+        {
+            if (_bUsesParentTransform)
+                Destroy(gameObject.transform.parent.gameObject);
+            else
+                Destroy(gameObject);
+
+        }
+    }
+
+    /// <summary>
+    /// If the UIOverlayObj is only set to inactive in the hiearchy instead of destroyed, move the UIOverlayObj to the correct position in relation to the followed object's.
+    /// </summary>
+    public virtual void Activate()
+    {
+        if (!_bFollowObjectIsOnUI && IsFollowObjectOffScreen())
+        {
+            // If the followed object is in world space and currently offscreen, only change the position of the UIOverlayObj
+            ManagePosition();
+        }
+        else
+        {
+            // Otherwise, change the position of the UIOverlayObj and set either the parent gameObject or the gameObject to active in the hiearchy
+            ManagePosition();
+            if (_bUsesParentTransform)
+                gameObject.transform.parent.gameObject.SetActive(true);
+            else
+                gameObject.SetActive(true);
+        }
+    }
+>>>>>>> 6f00e8dccbc8985d88d4316a8d01690219f763b2
+}

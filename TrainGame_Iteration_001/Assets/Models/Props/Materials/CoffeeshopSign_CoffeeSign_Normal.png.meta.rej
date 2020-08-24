@@ -1,0 +1,27 @@
+diff a/TrainGame_Iteration_001/Assets/Models/Props/Materials/CoffeeshopSign_CoffeeSign_Normal.png.meta b/TrainGame_Iteration_001/Assets/Models/Props/Materials/CoffeeshopSign_CoffeeSign_Normal.png.meta	(rejected hunks)
+@@ -1,6 +1,6 @@
+ fileFormatVersion: 2
+ guid: 2c4704cace6260841ae0840268317db4
+-timeCreated: 1534730474
++timeCreated: 1535529552
+ licenseType: Free
+ TextureImporter:
+   fileIDToRecycleName: {}
+@@ -9,7 +9,7 @@ TextureImporter:
+   mipmaps:
+     mipMapMode: 0
+     enableMipMap: 1
+-    sRGBTexture: 1
++    sRGBTexture: 0
+     linearTexture: 0
+     fadeOut: 0
+     borderMipMap: 0
+@@ -50,7 +50,7 @@ TextureImporter:
+   alphaUsage: 1
+   alphaIsTransparency: 0
+   spriteTessellationDetail: -1
+-  textureType: 0
++  textureType: 1
+   textureShape: 1
+   maxTextureSizeSet: 0
+   compressionQualitySet: 0

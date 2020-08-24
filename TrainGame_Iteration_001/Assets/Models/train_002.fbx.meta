@@ -1,0 +1,187 @@
+fileFormatVersion: 2
+guid: 0057c69b72e72d74982049eeca88088a
+timeCreated: 1521894208
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Cylinder022
+    100002: Cylinder025
+    100004: Cylinder026
+    100006: Cylinder027
+    100008: Cylinder028
+    100010: Cylinder029
+    100012: //RootNode
+    100014: undercarriage_001
+    100016: undercarriage_002
+    100018: main
+    100020: testRail001
+    100022: wheels1
+    100024: wheels2
+    100026: wheels3
+    100028: wheels4
+    100030: wheels5
+    100032: wheels6
+    100034: rail1
+    100036: rail2
+    400000: Cylinder022
+    400002: Cylinder025
+    400004: Cylinder026
+    400006: Cylinder027
+    400008: Cylinder028
+    400010: Cylinder029
+    400012: //RootNode
+    400014: undercarriage_001
+    400016: undercarriage_002
+    400018: main
+    400020: testRail001
+    400022: wheels1
+    400024: wheels2
+    400026: wheels3
+    400028: wheels4
+    400030: wheels5
+    400032: wheels6
+    400034: rail1
+    400036: rail2
+    2100000: No Name
+    2100002: main
+    2100004: wheelChasis
+    2100006: wheels1
+    2100008: rails
+    2300000: Cylinder022
+    2300002: Cylinder025
+    2300004: Cylinder026
+    2300006: Cylinder027
+    2300008: Cylinder028
+    2300010: Cylinder029
+    2300012: //RootNode
+    2300014: undercarriage_001
+    2300016: undercarriage_002
+    2300018: main
+    2300020: testRail001
+    2300022: wheels1
+    2300024: wheels2
+    2300026: wheels3
+    2300028: wheels4
+    2300030: wheels5
+    2300032: wheels6
+    2300034: rail1
+    2300036: rail2
+    3300000: Cylinder022
+    3300002: Cylinder025
+    3300004: Cylinder026
+    3300006: Cylinder027
+    3300008: Cylinder028
+    3300010: Cylinder029
+    3300012: //RootNode
+    3300014: undercarriage_001
+    3300016: undercarriage_002
+    3300018: main
+    3300020: testRail001
+    3300022: wheels1
+    3300024: wheels2
+    3300026: wheels3
+    3300028: wheels4
+    3300030: wheels5
+    3300032: wheels6
+    3300034: rail1
+    3300036: rail2
+    4300000: main
+    4300002: undercarriage_001
+    4300004: Cylinder022
+    4300006: Cylinder026
+    4300008: Cylinder025
+    4300010: undercarriage_002
+    4300012: Cylinder027
+    4300014: Cylinder028
+    4300016: Cylinder029
+    4300018: testRail001
+    4300020: wheels3
+    4300022: wheels2
+    4300024: wheels1
+    4300026: wheels5
+    4300028: wheels6
+    4300030: wheels4
+    4300032: rail2
+    4300034: rail1
+    9500000: //RootNode
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

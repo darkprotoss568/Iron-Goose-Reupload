@@ -1,0 +1,345 @@
+fileFormatVersion: 2
+guid: f8bc163b93b73f94da1caa0baa9c3f80
+timeCreated: 1525828092
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: hardpoint
+    100004: l_arm_1
+    100006: l_arm_2
+    100008: l_arm_3
+    100010: l_shoulder_1
+    100012: l_shoulder_2
+    100014: leg_1_A
+    100016: leg_1_B
+    100018: leg_1_C
+    100020: leg_2_A
+    100022: leg_2_B
+    100024: leg_2_C
+    100026: leg_3_A
+    100028: leg_3_B
+    100030: leg_3_C
+    100032: leg_4_A
+    100034: leg_4_B
+    100036: leg_4_C
+    100038: main
+    100040: r_arm_1
+    100042: r_arm_2
+    100044: r_arm_3
+    100046: r_shoulder_1
+    100048: r_shoulder_2
+    100050: recoil
+    100052: torso
+    100054: turret_x
+    100056: turret_y
+    100058: dummyroot
+    100060: dummyroot_eye
+    400000: //RootNode
+    400002: hardpoint
+    400004: l_arm_1
+    400006: l_arm_2
+    400008: l_arm_3
+    400010: l_shoulder_1
+    400012: l_shoulder_2
+    400014: leg_1_A
+    400016: leg_1_B
+    400018: leg_1_C
+    400020: leg_2_A
+    400022: leg_2_B
+    400024: leg_2_C
+    400026: leg_3_A
+    400028: leg_3_B
+    400030: leg_3_C
+    400032: leg_4_A
+    400034: leg_4_B
+    400036: leg_4_C
+    400038: main
+    400040: r_arm_1
+    400042: r_arm_2
+    400044: r_arm_3
+    400046: r_shoulder_1
+    400048: r_shoulder_2
+    400050: recoil
+    400052: torso
+    400054: turret_x
+    400056: turret_y
+    400058: dummyroot
+    400060: dummyroot_eye
+    2100000: 02 - Default
+    2300000: l_arm_1
+    2300002: l_arm_2
+    2300004: l_arm_3
+    2300006: l_shoulder_1
+    2300008: l_shoulder_2
+    2300010: leg_1_A
+    2300012: leg_1_B
+    2300014: leg_1_C
+    2300016: leg_2_A
+    2300018: leg_2_B
+    2300020: leg_2_C
+    2300022: leg_3_A
+    2300024: leg_3_B
+    2300026: leg_3_C
+    2300028: leg_4_A
+    2300030: leg_4_B
+    2300032: leg_4_C
+    2300034: main
+    2300036: r_arm_1
+    2300038: r_arm_2
+    2300040: r_arm_3
+    2300042: r_shoulder_1
+    2300044: r_shoulder_2
+    2300046: torso
+    2300048: turret_x
+    2300050: turret_y
+    3300000: l_arm_1
+    3300002: l_arm_2
+    3300004: l_arm_3
+    3300006: l_shoulder_1
+    3300008: l_shoulder_2
+    3300010: leg_1_A
+    3300012: leg_1_B
+    3300014: leg_1_C
+    3300016: leg_2_A
+    3300018: leg_2_B
+    3300020: leg_2_C
+    3300022: leg_3_A
+    3300024: leg_3_B
+    3300026: leg_3_C
+    3300028: leg_4_A
+    3300030: leg_4_B
+    3300032: leg_4_C
+    3300034: main
+    3300036: r_arm_1
+    3300038: r_arm_2
+    3300040: r_arm_3
+    3300042: r_shoulder_1
+    3300044: r_shoulder_2
+    3300046: torso
+    3300048: turret_x
+    3300050: turret_y
+    4300000: main
+    4300002: leg_1_A
+    4300004: leg_1_B
+    4300006: leg_1_C
+    4300008: torso
+    4300010: turret_y
+    4300012: turret_x
+    4300014: r_shoulder_1
+    4300016: r_shoulder_2
+    4300018: r_arm_1
+    4300020: r_arm_2
+    4300022: r_arm_3
+    4300024: l_shoulder_1
+    4300026: l_shoulder_2
+    4300028: l_arm_1
+    4300030: l_arm_2
+    4300032: l_arm_3
+    4300034: leg_2_A
+    4300036: leg_2_B
+    4300038: leg_2_C
+    4300040: leg_3_A
+    4300042: leg_3_B
+    4300044: leg_3_C
+    4300046: leg_4_A
+    4300048: leg_4_B
+    4300050: leg_4_C
+    7400000: chop
+    7400002: walk_cycle_start
+    7400004: walk_cycle
+    7400006: walk_cycle_stop
+    9500000: //RootNode
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: chop
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 100
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: walk_cycle_start
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 20
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: walk_cycle
+      takeName: Take 001
+      firstFrame: 20
+      lastFrame: 60
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: walk_cycle_stop
+      takeName: Take 001
+      firstFrame: 60
+      lastFrame: 70
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

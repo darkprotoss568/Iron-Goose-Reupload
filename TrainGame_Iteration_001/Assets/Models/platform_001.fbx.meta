@@ -1,0 +1,185 @@
+fileFormatVersion: 2
+guid: 321b2f0613b123b40b928dc21efbbcf2
+timeCreated: 1523194107
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: lightPost001
+    100004: lightPost002
+    100006: lightPost003
+    100008: lightPost004
+    100010: platformMesh
+    100012: seat001
+    100014: seat002
+    100016: seat003
+    100018: seat004
+    100020: seat005
+    100022: shelter001
+    100024: shelter002
+    100026: shopSign
+    100028: timetable001
+    100030: timetable002
+    100032: timetable003
+    400000: //RootNode
+    400002: lightPost001
+    400004: lightPost002
+    400006: lightPost003
+    400008: lightPost004
+    400010: platformMesh
+    400012: seat001
+    400014: seat002
+    400016: seat003
+    400018: seat004
+    400020: seat005
+    400022: shelter001
+    400024: shelter002
+    400026: shopSign
+    400028: timetable001
+    400030: timetable002
+    400032: timetable003
+    2100000: No Name
+    2100002: rail
+    2100004: walls
+    2100006: roof
+    2100008: wood
+    2100010: edge
+    2100012: concrete
+    2100014: roof2
+    2100016: metal1
+    2100018: windowGlass
+    2100020: display
+    2100022: sign1
+    2100024: door
+    2300000: //RootNode
+    2300002: lightPost001
+    2300004: lightPost002
+    2300006: lightPost003
+    2300008: lightPost004
+    2300010: platformMesh
+    2300012: seat001
+    2300014: seat002
+    2300016: seat003
+    2300018: seat004
+    2300020: seat005
+    2300022: shelter001
+    2300024: shelter002
+    2300026: shopSign
+    2300028: timetable001
+    2300030: timetable002
+    2300032: timetable003
+    3300000: //RootNode
+    3300002: lightPost001
+    3300004: lightPost002
+    3300006: lightPost003
+    3300008: lightPost004
+    3300010: platformMesh
+    3300012: seat001
+    3300014: seat002
+    3300016: seat003
+    3300018: seat004
+    3300020: seat005
+    3300022: shelter001
+    3300024: shelter002
+    3300026: shopSign
+    3300028: timetable001
+    3300030: timetable002
+    3300032: timetable003
+    4300000: platformMesh
+    4300002: lightPost004
+    4300004: lightPost003
+    4300006: lightPost002
+    4300008: lightPost001
+    4300010: seat001
+    4300012: seat002
+    4300014: seat003
+    4300016: seat004
+    4300018: seat005
+    4300020: shelter001
+    4300022: shelter002
+    4300024: timetable001
+    4300026: shopSign
+    4300028: timetable002
+    4300030: timetable003
+    9500000: //RootNode
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

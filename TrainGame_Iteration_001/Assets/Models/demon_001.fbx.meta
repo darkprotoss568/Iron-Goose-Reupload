@@ -1,0 +1,150 @@
+fileFormatVersion: 2
+guid: c8a3ef17fc47cb440a7e28d85c50738d
+timeCreated: 1533385846
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: arm001
+    100002: arm002
+    100004: arm003
+    100006: //RootNode
+    100008: nacelle001
+    100010: nacelle002
+    100012: nacelle003
+    100014: Point001
+    100016: Point002
+    100018: Point003
+    100020: turret_x
+    100022: turret_x_1
+    100024: turret_y
+    100026: turret_y_1
+    400000: arm001
+    400002: arm002
+    400004: arm003
+    400006: //RootNode
+    400008: nacelle001
+    400010: nacelle002
+    400012: nacelle003
+    400014: Point001
+    400016: Point002
+    400018: Point003
+    400020: turret_x
+    400022: turret_x_1
+    400024: turret_y
+    400026: turret_y_1
+    2100000: 01 - Default
+    2300000: arm001
+    2300002: arm002
+    2300004: arm003
+    2300006: //RootNode
+    2300008: nacelle001
+    2300010: nacelle002
+    2300012: nacelle003
+    2300014: turret_x
+    2300016: turret_x_1
+    2300018: turret_y
+    2300020: turret_y_1
+    3300000: arm001
+    3300002: arm002
+    3300004: arm003
+    3300006: //RootNode
+    3300008: nacelle001
+    3300010: nacelle002
+    3300012: nacelle003
+    3300014: turret_x
+    3300016: turret_x_1
+    3300018: turret_y
+    3300020: turret_y_1
+    4300000: main
+    4300002: turret_y_1
+    4300004: turret_x_1
+    4300006: turret_y
+    4300008: turret_x
+    4300010: arm001
+    4300012: nacelle001
+    4300014: arm002
+    4300016: nacelle002
+    4300018: arm003
+    4300020: nacelle003
+    9500000: //RootNode
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
